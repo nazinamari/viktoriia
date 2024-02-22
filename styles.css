@@ -20,10 +20,8 @@ body {
   background-color: #ffffff;
   /* width: 1200px; */
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-  padding: 180px;
+  padding: 40px 146px 254px 38px;
   /* padding-left: 40px; */
-  padding-bottom: 150px;
-  padding-left: 60px;
 }
 
 /* about styles */
@@ -46,7 +44,7 @@ body {
   font-weight: bold;
   font-size: 40px;
   line-height: 55px;
-  color: #000000;
+  color: #f78c66;
   margin-bottom: 10px;
   margin-top: 0;
 }
@@ -82,7 +80,7 @@ body {
   font-weight: bold;
   font-size: 32px;
   line-height: 27px;
-  color: #000000;
+  color: #003163;
   margin-bottom: 20px;
   /* font-size: 45px;
     color: teal; */
@@ -151,7 +149,7 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
-  line-height: 20px;
+  line-height: 26px;
   color: #000000;
   margin-bottom: 10px;
 }
@@ -160,7 +158,7 @@ body {
   font-weight: bold;
   font-size: 20px;
   line-height: 20px;
-  color: #fb6d3a;
+  color: #2b4355;
 }
 .period {
   font-style: normal;
@@ -195,7 +193,7 @@ body {
   font-weight: bold;
   font-size: 18px;
   line-height: 20px;
-  color: #fb6d3a;
+  color: #6894b7;
 
   /* background-color: seagreen;
     padding-top: 100px;
@@ -215,12 +213,12 @@ body {
 /* slidebar styles */
 
 .slidebar {
-  background-color: #282a42;
+  background-color: #243440;
   /* background-color: #1e2939; */
   /* padding-top: 40px; */
   /* width: 380px; */
       width: 400px;
-  padding-top: 155px;
+  padding-top: 40px;
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -246,7 +244,7 @@ body {
 } */
 
 .contact_type {
-  color: #fb6e3a;
+  color: #f78c66;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -259,7 +257,7 @@ body {
   font-weight: normal;
   font-size: 20px;
   line-height: 24px;
-  color: #ffffff;
+  color: #bec2c1;
   text-decoration: none;
 }
 
@@ -272,14 +270,17 @@ body {
   /* width: 80%; */
 }
 
-.tech_skills_icon,
 .soft_skills_icon {
-  color: #fb6d3a;
+  color: #f88c66;
+}
+
+.tech_skills_icon{
+  color: #6894b7;
 }
 
 .tech_skills_text,
 .soft_skills_text {
-  color: #ffffff;
+  color: #bec2c1;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -296,13 +297,10 @@ body {
 .skills, 
 .skills_title {
   color:#000000;
-  margin-left: 0;
-  margin-right: -130px;
 }
 
 .wrapper-skills{
   display: inline-block;
-  width: 48%;
   vertical-align: top;
 }
 .skills_title {
